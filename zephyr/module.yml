@@ -1,10 +1,10 @@
-zmk-keyboard-<keyboard_name>:
+zmk-keyboard-<sofle>:
   include:
-    - board: <board_name>
-      shield: <shield_name>
-      snippet: <snippet_name>
-      cmake-args: <cmake_args>
-      artifact-name: <artifact_name>
+  - board: nrfmicro_13
+    shield: sofle_left
+  - board: nrfmicro_13
+    shield: sofle_right
+    
 build:
   settings:
     board_root: .
