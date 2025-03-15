@@ -1,3 +1,10 @@
+zmk-keyboard-<keyboard_name>:
+  include:
+    - board: <board_name>
+      shield: <shield_name>
+      snippet: <snippet_name>
+      cmake-args: <cmake_args>
+      artifact-name: <artifact_name>
 build:
   settings:
     board_root: .
